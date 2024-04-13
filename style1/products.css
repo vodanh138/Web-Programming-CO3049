@@ -1,0 +1,53 @@
+
+input[type = "text"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+.search_bar{
+    width: 93vw;
+    height: 30px;
+}
+.searching_form button{
+    height: 35px;
+    width: 5vw;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page_display {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.product_display {
+    width: 486px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product_display p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product_display img{
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+br {
+    clear: both;
+}
